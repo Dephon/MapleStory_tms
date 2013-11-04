@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Mushroom Shrine: Jia Jia-->
+<Shop>
+	<NPC>9110006</NPC>
+	<Items>
+		<Item>
+			<ID>02022026</ID>
+			<Price>1800</Price>
+		</Item>
+		<Item>
+			<ID>02022027</ID>
+			<Price>3800</Price>
+		</Item>		
+	</Items>
+</Shop>

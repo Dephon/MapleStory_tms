@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--New Leaf City: Kyle-->
+<Shop>
+	<NPC>9201059</NPC>
+	<Items>
+		<Item>
+			<ID>01302008</ID>
+			<Price>42000</Price>
+		</Item>
+		<Item>
+			<ID>01302068</ID>
+			<Price>352500</Price>
+		</Item>
+		<Item>
+			<ID>01312005</ID>
+			<Price>42500</Price>
+		</Item>
+		<Item>
+			<ID>01322014</ID>
+			<Price>42500</Price>
+		</Item>
+		<Item>
+			<ID>01332009</ID>
+			<Price>44500</Price>
+		</Item>
+		<Item>
+			<ID>01332033</ID>
+			<Price>42500</Price>
+		</Item>
+		<Item>
+			<ID>01372003</ID>
+			<Price>40500</Price>
+		</Item>
+		<Item>
+			<ID>01382002</ID>
+			<Price>22500</Price>
+		</Item>
+		<Item>
+			<ID>01402002</ID>
+			<Price>152500</Price>
+		</Item>
+		<Item>
+			<ID>01412006</ID>
+			<Price>47500</Price>
+		</Item>
+		<Item>
+			<ID>01422001</ID>
+			<Price>47500</Price>
+		</Item>
+		<Item>
+			<ID>01432002</ID>
+			<Price>62500</Price>
+		</Item>
+		<Item>
+			<ID>01442001</ID>
+			<Price>62500</Price>
+		</Item>
+		<Item>
+			<ID>01452027</ID>
+			<Price>152500</Price>
+		</Item>
+		<Item>
+			<ID>01462000</ID>
+			<Price>32500</Price>
+		</Item>
+		<Item>
+			<ID>01472001</ID>
+			<Price>22500</Price>
+		</Item>
+
+		
+	</Items>
+</Shop>

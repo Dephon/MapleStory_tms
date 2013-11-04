@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F07865A8-3A41-48D8-809C-056CC906A50B}</ProjectGuid>
+    <RootNamespace>MapleStoryServer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="MapleStoryServer.cpp" />
+    <ClCompile Include="Drops.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Levels.cpp" />
+    <ClCompile Include="Maps.cpp" />
+    <ClCompile Include="Mobs.cpp" />
+    <ClCompile Include="NPCs.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerInventory.cpp" />
+    <ClCompile Include="Players.cpp" />
+    <ClCompile Include="Quests.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Shops.cpp" />
+    <ClCompile Include="Skills.cpp" />
+    <ClCompile Include="GameMasters.cpp" />
+    <ClCompile Include="MapleIsland.cpp" />
+    <ClCompile Include="Initializing.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="MySQLM.cpp" />
+    <ClCompile Include="MasterServer.cpp" />
+    <ClCompile Include="Channel.cpp" />
+    <ClCompile Include="Channels.cpp" />
+    <ClCompile Include="ChannelsPlayers.cpp" />
+    <ClCompile Include="Characters.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="PlayerLogin.cpp" />
+    <ClCompile Include="Worlds.cpp" />
+    <ClCompile Include="ChannelsPacket.cpp" />
+    <ClCompile Include="DropsPacket.cpp" />
+    <ClCompile Include="InventoryPacket.cpp" />
+    <ClCompile Include="LevelsPacket.cpp" />
+    <ClCompile Include="LoginPacket.cpp" />
+    <ClCompile Include="MapPacket.cpp" />
+    <ClCompile Include="MasterServerPacket.cpp" />
+    <ClCompile Include="MobsPacket.cpp" />
+    <ClCompile Include="NPCPacket.cpp" />
+    <ClCompile Include="PacketCreator.cpp" />
+    <ClCompile Include="PlayerPacket.cpp" />
+    <ClCompile Include="PlayersPacket.cpp" />
+    <ClCompile Include="QuestsPacket.cpp" />
+    <ClCompile Include="ServerPacket.cpp" />
+    <ClCompile Include="SkillsPacket.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TimerTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drops.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Levels.h" />
+    <ClInclude Include="Maps.h" />
+    <ClInclude Include="Mobs.h" />
+    <ClInclude Include="NPCs.h" />
+    <ClInclude Include="NPCsScripts.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerInventory.h" />
+    <ClInclude Include="Players.h" />
+    <ClInclude Include="Quests.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="Shops.h" />
+    <ClInclude Include="Skills.h" />
+    <ClInclude Include="Initializing.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="MySQLM.h" />
+    <ClInclude Include="MasterServer.h" />
+    <ClInclude Include="Characters.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="PlayerLogin.h" />
+    <ClInclude Include="Worlds.h" />
+    <ClInclude Include="Channel.h" />
+    <ClInclude Include="Channels.h" />
+    <ClInclude Include="ChannelsPlayers.h" />
+    <ClInclude Include="ChannelsPacket.h" />
+    <ClInclude Include="DropsPacket.h" />
+    <ClInclude Include="InventoryPacket.h" />
+    <ClInclude Include="LevelsPacket.h" />
+    <ClInclude Include="LoginPacket.h" />
+    <ClInclude Include="MapPacket.h" />
+    <ClInclude Include="MasterServerPacket.h" />
+    <ClInclude Include="MobsPacket.h" />
+    <ClInclude Include="NPCPacket.h" />
+    <ClInclude Include="PacketCreator.h" />
+    <ClInclude Include="PlayerPacket.h" />
+    <ClInclude Include="PlayersPacket.h" />
+    <ClInclude Include="QuestsPacket.h" />
+    <ClInclude Include="ServerPacket.h" />
+    <ClInclude Include="SkillsPacket.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Connection\Connection.vcxproj">
+      <Project>{eb7c3f7e-810a-4a21-b58f-d1e0a3c7cf0d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Decoder\Decoder.vcxproj">
+      <Project>{20bde2c9-a4f8-4aed-843e-a9523990a201}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

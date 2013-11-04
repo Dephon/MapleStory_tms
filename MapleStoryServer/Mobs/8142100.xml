@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Mob>
+    <HP>49000</HP>
+    <MP>210</MP>
+    <exp>2500</exp>
+    <Summon />
+</Mob>

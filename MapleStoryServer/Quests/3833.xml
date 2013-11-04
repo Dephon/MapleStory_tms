@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Quest>
+    <NextQuest>0</NextQuest>
+    <Requests>
+        <Request>
+            <Mob>0</Mob>
+            <Item>1</Item>
+            <Quest>0</Quest>
+            <ID>4000294</ID>
+            <Count>1</Count>
+        </Request>
+    </Requests>
+    <Rewards />
+</Quest>

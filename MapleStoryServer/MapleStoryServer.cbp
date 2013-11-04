@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MapleStoryServer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="MapleStoryServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug Win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+				<Linker>
+					<Add library="ws2_32" />
+					<Add library="libmysql" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="MapleStoryServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release Win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-W" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add library="ws2_32" />
+					<Add library="libmysql" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="MapleStoryServer.cpp" />
+		<Unit filename="Drops.cpp" />
+		<Unit filename="Inventory.cpp" />
+		<Unit filename="Levels.cpp" />
+		<Unit filename="Maps.cpp" />
+		<Unit filename="Mobs.cpp" />
+		<Unit filename="NPCs.cpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="PlayerInventory.cpp" />
+		<Unit filename="Players.cpp" />
+		<Unit filename="Quests.cpp" />
+		<Unit filename="Server.cpp" />
+		<Unit filename="Shops.cpp" />
+		<Unit filename="Skills.cpp" />
+		<Unit filename="GameMasters.cpp" />
+		<Unit filename="MapleIsland.cpp" />
+		<Unit filename="Initializing.cpp" />
+		<Unit filename="tinystr.cpp" />
+		<Unit filename="tinyxml.cpp" />
+		<Unit filename="tinyxmlerror.cpp" />
+		<Unit filename="tinyxmlparser.cpp" />
+		<Unit filename="MySQLM.cpp" />
+		<Unit filename="MasterServer.cpp" />
+		<Unit filename="Channel.cpp" />
+		<Unit filename="Channels.cpp" />
+		<Unit filename="ChannelsPlayers.cpp" />
+		<Unit filename="Characters.cpp" />
+		<Unit filename="Login.cpp" />
+		<Unit filename="PlayerLogin.cpp" />
+		<Unit filename="Worlds.cpp" />
+		<Unit filename="ChannelsPacket.cpp" />
+		<Unit filename="DropsPacket.cpp" />
+		<Unit filename="InventoryPacket.cpp" />
+		<Unit filename="LevelsPacket.cpp" />
+		<Unit filename="LoginPacket.cpp" />
+		<Unit filename="MapPacket.cpp" />
+		<Unit filename="MasterServerPacket.cpp" />
+		<Unit filename="MobsPacket.cpp" />
+		<Unit filename="NPCPacket.cpp" />
+		<Unit filename="PacketCreator.cpp" />
+		<Unit filename="PlayerPacket.cpp" />
+		<Unit filename="PlayersPacket.cpp" />
+		<Unit filename="QuestsPacket.cpp" />
+		<Unit filename="ServerPacket.cpp" />
+		<Unit filename="SkillsPacket.cpp" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="TimerTest.cpp" />
+		<Unit filename="Drops.h" />
+		<Unit filename="Inventory.h" />
+		<Unit filename="Levels.h" />
+		<Unit filename="Maps.h" />
+		<Unit filename="Mobs.h" />
+		<Unit filename="NPCs.h" />
+		<Unit filename="NPCsScripts.h" />
+		<Unit filename="Player.h" />
+		<Unit filename="PlayerInventory.h" />
+		<Unit filename="Players.h" />
+		<Unit filename="Quests.h" />
+		<Unit filename="Server.h" />
+		<Unit filename="Shops.h" />
+		<Unit filename="Skills.h" />
+		<Unit filename="Initializing.h" />
+		<Unit filename="tinystr.h" />
+		<Unit filename="tinyxml.h" />
+		<Unit filename="MySQLM.h" />
+		<Unit filename="MasterServer.h" />
+		<Unit filename="Characters.h" />
+		<Unit filename="Login.h" />
+		<Unit filename="PlayerLogin.h" />
+		<Unit filename="Worlds.h" />
+		<Unit filename="Channel.h" />
+		<Unit filename="Channels.h" />
+		<Unit filename="ChannelsPlayers.h" />
+		<Unit filename="ChannelsPacket.h" />
+		<Unit filename="DropsPacket.h" />
+		<Unit filename="InventoryPacket.h" />
+		<Unit filename="LevelsPacket.h" />
+		<Unit filename="LoginPacket.h" />
+		<Unit filename="MapPacket.h" />
+		<Unit filename="MasterServerPacket.h" />
+		<Unit filename="MobsPacket.h" />
+		<Unit filename="NPCPacket.h" />
+		<Unit filename="PacketCreator.h" />
+		<Unit filename="PlayerPacket.h" />
+		<Unit filename="PlayersPacket.h" />
+		<Unit filename="QuestsPacket.h" />
+		<Unit filename="ServerPacket.h" />
+		<Unit filename="SkillsPacket.h" />
+		<Unit filename="Timer.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

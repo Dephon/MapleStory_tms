@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Mushroom Shrine: Taru-->
+<Shop>
+	<NPC>9110004</NPC>
+	<Items>
+		<Item>
+			<ID>02022014</ID>
+			<Price>650</Price>
+		</Item>
+		<Item>
+			<ID>02022023</ID>
+			<Price>1350</Price>
+		</Item>	
+	</Items>
+</Shop>

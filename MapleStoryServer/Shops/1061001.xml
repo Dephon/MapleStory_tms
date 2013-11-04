@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ant Tunnel Park: 24 Hr Mobile Store-->
+<Shop>
+	<NPC>1061001</NPC>
+	<Items>
+		<Item>
+			<ID>2020001</ID>
+			<Price>220</Price>
+		</Item>
+		<Item>
+			<ID>2020005</ID>
+			<Price>320</Price>
+		</Item>
+		<Item>
+			<ID>2020003</ID>
+			<Price>450</Price>
+		</Item>
+		<Item>
+			<ID>2020004</ID>
+			<Price>450</Price>
+		</Item>
+		<Item>
+			<ID>2020006</ID>
+			<Price>530</Price>
+		</Item>
+		<Item>
+			<ID>2022003</ID>
+			<Price>1100</Price>
+		</Item>
+		<Item>
+			<ID>2020000</ID>
+			<Price>420</Price>
+		</Item>
+		<Item>
+			<ID>2022000</ID>
+			<Price>1650</Price>
+		</Item>
+		<Item>
+			<ID>2020002</ID>
+			<Price>320</Price>
+		</Item>
+		<Item>
+			<ID>2030000</ID>
+			<Price>400</Price>
+		</Item>
+		<Item>
+			<ID>2060000</ID>
+			<Price>1</Price>
+		</Item>
+		<Item>
+			<ID>2061000</ID>
+			<Price>1</Price>
+		</Item>
+	</Items>
+</Shop>

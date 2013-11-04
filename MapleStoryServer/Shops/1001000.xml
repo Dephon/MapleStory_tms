@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Lith Harbor: Silver-->
+<Shop>
+	<NPC>1001000</NPC>
+	<Items>
+		<Item>
+			<ID>01302000</ID>
+			<Price>50</Price>
+		</Item>
+		<Item>
+			<ID>01302007</ID>
+			<Price>3000</Price>
+		</Item>
+		<Item>
+			<ID>01312000</ID>
+			<Price>3000</Price>
+		</Item>
+		<Item>
+			<ID>01312004</ID>
+			<Price>50</Price>
+		</Item>
+		<Item>
+			<ID>01322005</ID>
+			<Price>49</Price>
+		</Item>
+		<Item>
+			<ID>01332007</ID>
+			<Price>1000</Price>
+		</Item>
+	</Items>
+</Shop>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<Mob>
+    <HP>40000</HP>
+    <MP>0</MP>
+    <exp>0</exp>
+    <Summon>
+        <ID>8810009</ID>
+        <ID>8810007</ID>
+        <ID>8810008</ID>
+        <ID>8810006</ID>
+        <ID>8810005</ID>
+        <ID>8810004</ID>
+        <ID>8810002</ID>
+        <ID>8810003</ID>
+        <ID>8810018</ID>
+    </Summon>
+</Mob>

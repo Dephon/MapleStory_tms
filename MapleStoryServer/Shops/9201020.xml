@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Amoria: Vivian Boutique-->
+<Shop>
+	<NPC>9201020</NPC>
+	<Items>
+		<Item>
+			<ID>01050131</ID>
+			<Price>100000</Price>
+		</Item>
+		<Item>
+			<ID>01050132</ID>
+			<Price>100000</Price>
+		</Item>
+		<Item>
+			<ID>01050133</ID>
+			<Price>100000</Price>
+		</Item>
+		<Item>
+			<ID>01050134</ID>
+			<Price>100000</Price>
+		</Item>
+			<Item>
+			<ID>01012011</ID>
+			<Price>100000</Price>
+		</Item>
+			<Item>
+			<ID>01472062</ID>
+			<Price>900000000</Price>
+		</Item>			<Item>
+			<ID>01082223</ID>
+			<Price>500000000</Price>
+		</Item>
+	</Items>
+</Shop>

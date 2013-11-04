@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<Quest>
+    <NextQuest>-858993460</NextQuest>
+    <Requests>
+        <Request>
+            <Mob>0</Mob>
+            <Item>1</Item>
+            <Quest>0</Quest>
+            <ID>2022247</ID>
+            <Count>20</Count>
+        </Request>
+        <Request>
+            <Mob>0</Mob>
+            <Item>1</Item>
+            <Quest>0</Quest>
+            <ID>2022248</ID>
+            <Count>20</Count>
+        </Request>
+        <Request>
+            <Mob>0</Mob>
+            <Item>1</Item>
+            <Quest>0</Quest>
+            <ID>2022249</ID>
+            <Count>20</Count>
+        </Request>
+        <Request>
+            <Mob>0</Mob>
+            <Item>1</Item>
+            <Quest>0</Quest>
+            <ID>2022250</ID>
+            <Count>20</Count>
+        </Request>
+    </Requests>
+    <Rewards />
+</Quest>

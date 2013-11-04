@@ -1,0 +1,9 @@
+<Mob>
+	<Drops>
+		<Drop>
+			<ID>4000301</ID>
+			<Chance>10000</Chance>
+			<Quest>8142</Quest>
+		</Drop>
+	</Drops>
+</Mob>

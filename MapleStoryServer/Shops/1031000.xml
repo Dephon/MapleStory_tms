@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Ellinia: Flora the Fairy-->
+<Shop>
+	<NPC>1031000</NPC>
+	<Items>
+		<Item>
+			<ID>01322002</ID>
+			<Price>10000</Price>
+		</Item>
+		<Item>
+			<ID>01372002</ID>
+			<Price>9000</Price>
+		</Item>
+		<Item>
+			<ID>01372003</ID>
+			<Price>38000</Price>
+		</Item>
+		<Item>
+			<ID>01372004</ID>
+			<Price>18000</Price>
+		</Item>
+		<Item>
+			<ID>01372005</ID>
+			<Price>2000</Price>
+		</Item>
+		<Item>
+			<ID>01372006</ID>
+			<Price>5000</Price>
+		</Item>
+		<Item>
+			<ID>01382000</ID>
+			<Price>3000</Price>
+		</Item>
+		<Item>
+			<ID>01382002</ID>
+			<Price>20000</Price>
+		</Item>
+		<Item>
+			<ID>01382003</ID>
+			<Price>6000</Price>
+		</Item>
+		<Item>
+			<ID>01382004</ID>
+			<Price>10000</Price>
+		</Item>
+		<Item>
+			<ID>01382005</ID>
+			<Price>6000</Price>
+		</Item>	
+	</Items>
+</Shop>

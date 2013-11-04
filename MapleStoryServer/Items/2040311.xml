@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<Item>
+    <Type>2</Type>
+    <Price>1</Price>
+    <MaxSlot>100</MaxSlot>
+    <Quest>0</Quest>
+    <Consume>1</Consume>
+    <Effect>
+        <HP>0</HP>
+        <MP>0</MP>
+        <HPR>0</HPR>
+        <MPR>0</MPR>
+        <moveTo>0</moveTo>
+        <success>60</success>
+        <cursed>0</cursed>
+        <iSTR>0</iSTR>
+        <iDEX>0</iDEX>
+        <iINT>0</iINT>
+        <iLUK>0</iLUK>
+        <iHP>0</iHP>
+        <iMP>0</iMP>
+        <iWAtk>0</iWAtk>
+        <iMAtk>0</iMAtk>
+        <iWDef>1</iWDef>
+        <iMDef>1</iMDef>
+        <iAcc>0</iAcc>
+        <iAvo>0</iAvo>
+        <iHand>0</iHand>
+        <iJump>0</iJump>
+        <iSpeed>0</iSpeed>
+        <Mobs />
+    </Effect>
+</Item>

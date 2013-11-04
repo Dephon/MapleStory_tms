@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<Quest>
+    <NextQuest>2121</NextQuest>
+    <Requests />
+    <Rewards>
+        <Reward>
+            <Start>1</Start>
+            <Item>1</Item>
+            <EXP>0</EXP>
+            <Mesos>0</Mesos>
+            <Fame>0</Fame>
+            <ID>4031045</ID>
+            <Count>1</Count>
+            <Gender>2</Gender>
+            <Job>0</Job>
+            <Prop>0</Prop>
+        </Reward>
+        <Reward>
+            <Start>1</Start>
+            <Item>1</Item>
+            <EXP>0</EXP>
+            <Mesos>0</Mesos>
+            <Fame>0</Fame>
+            <ID>4031331</ID>
+            <Count>1</Count>
+            <Gender>2</Gender>
+            <Job>0</Job>
+            <Prop>0</Prop>
+        </Reward>
+        <Reward>
+            <Start>1</Start>
+            <Item>1</Item>
+            <EXP>0</EXP>
+            <Mesos>0</Mesos>
+            <Fame>0</Fame>
+            <ID>4161013</ID>
+            <Count>1</Count>
+            <Gender>2</Gender>
+            <Job>0</Job>
+            <Prop>0</Prop>
+        </Reward>
+    </Rewards>
+</Quest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<Map>
+    <returnMap>220000000</returnMap>
+    <NPCs>
+        <NPC>
+            <id>9103003</id>
+            <x>-27</x>
+            <cy>112</cy>
+            <fh>1</fh>
+            <rx0>-77</rx0>
+            <rx1>23</rx1>
+        </NPC>
+    </NPCs>
+    <Mobs />
+    <Portals>
+        <Portal>
+            <id>0</id>
+            <from>sp</from>
+            <to></to>
+            <toid>999999999</toid>
+            <type>0</type>
+            <x>-215</x>
+            <y>47</y>
+        </Portal>
+        <Portal>
+            <id>1</id>
+            <from>sp</from>
+            <to></to>
+            <toid>999999999</toid>
+            <type>0</type>
+            <x>-280</x>
+            <y>58</y>
+        </Portal>
+    </Portals>
+    <Footholds>
+        <Foothold>
+            <x1>-399</x1>
+            <y1>112</y1>
+            <x2>50</x2>
+            <y2>112</y2>
+        </Foothold>
+        <Foothold>
+            <x1>50</x1>
+            <y1>112</y1>
+            <x2>50</x2>
+            <y2>-391</y2>
+        </Foothold>
+    </Footholds>
+</Map>

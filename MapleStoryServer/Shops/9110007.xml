@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Mushroom Shrine: Robo-->
+<Shop>
+	<NPC>9110007</NPC>
+	<Items>
+		<Item>
+			<ID>02022017</ID>
+			<Price>1100</Price>
+		</Item>
+		<Item>
+			<ID>02022018</ID>
+			<Price>1600</Price>
+		</Item>
+		<Item>
+			<ID>02022019</ID>
+			<Price>850</Price>
+		</Item>
+		<Item>
+			<ID>02022020</ID>
+			<Price>550</Price>
+		</Item>		
+	</Items>
+</Shop>

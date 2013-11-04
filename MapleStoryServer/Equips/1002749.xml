@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Equip>
+    <Type>1</Type>
+    <Price>1</Price>
+    <Slots>7</Slots>
+    <STR>2</STR>
+    <DEX>5</DEX>
+    <HP>100</HP>
+    <WDef>60</WDef>
+    <MDef>20</MDef>
+    <Cash>0</Cash>
+    <Quest>0</Quest>
+</Equip>

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameServer">
+      <UniqueIdentifier>{1c961e1e-b3b5-437b-9600-8820d1ee0580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NPCs">
+      <UniqueIdentifier>{44c3b6bf-53c8-4521-acc3-3ee0c807f410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataBaseLoading">
+      <UniqueIdentifier>{66b3c777-91be-4539-af6e-cd5d4b141425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataBaseManager">
+      <UniqueIdentifier>{ecb24565-340b-4a68-9de3-a107616e854d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConnectMasterServer">
+      <UniqueIdentifier>{0dc64f14-a053-49f1-8524-cdd88204b1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MasterServer">
+      <UniqueIdentifier>{543c4660-0faf-4158-a925-ddb8eb1bc432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LoginServer">
+      <UniqueIdentifier>{16790a78-172b-45d1-bfeb-6ea73c485edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Packets">
+      <UniqueIdentifier>{789e37da-defb-4350-bfb5-0ac93cf56350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timer">
+      <UniqueIdentifier>{ea062d86-4462-4280-8010-29586ece80dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameServer">
+      <UniqueIdentifier>{86fd20dc-06e2-40a6-9f13-eee522297ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataBaseLoading">
+      <UniqueIdentifier>{18a0340f-15ed-4d35-bd2e-9efa2234b4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataBaseManager">
+      <UniqueIdentifier>{611a7501-12e4-4baa-bf7e-1c6b803d09aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ConnectMasterServer">
+      <UniqueIdentifier>{731c9c19-fe2d-4da6-9d79-684c4964f170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LoginServer">
+      <UniqueIdentifier>{852f6a10-ac87-4380-915b-e73703be859c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MasterServer">
+      <UniqueIdentifier>{485fecb1-ea65-4904-921f-d23e7a064ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packets">
+      <UniqueIdentifier>{eff526b0-4531-4b13-a297-b38494e8fc5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Timer">
+      <UniqueIdentifier>{e3fca444-0185-403f-8aaf-2cb6b295edb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MapleStoryServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drops.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mobs.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCs.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventory.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Players.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Quests.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shops.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Skills.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMasters.cpp">
+      <Filter>Source Files\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="MapleIsland.cpp">
+      <Filter>Source Files\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="Initializing.cpp">
+      <Filter>Source Files\DataBaseLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files\DataBaseLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files\DataBaseLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files\DataBaseLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files\DataBaseLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="MySQLM.cpp">
+      <Filter>Source Files\DataBaseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterServer.cpp">
+      <Filter>Source Files\ConnectMasterServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel.cpp">
+      <Filter>Source Files\MasterServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Channels.cpp">
+      <Filter>Source Files\MasterServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelsPlayers.cpp">
+      <Filter>Source Files\MasterServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Characters.cpp">
+      <Filter>Source Files\LoginServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files\LoginServer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLogin.cpp">
+      <Filter>Source Files\LoginServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Worlds.cpp">
+      <Filter>Source Files\LoginServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelsPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="DropsPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelsPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterServerPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="MobsPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketCreator.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayersPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestsPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillsPacket.cpp">
+      <Filter>Source Files\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerTest.cpp">
+      <Filter>Source Files\Timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drops.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mobs.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCs.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCsScripts.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInventory.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Quests.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shops.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.h">
+      <Filter>Header Files\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Initializing.h">
+      <Filter>Header Files\DataBaseLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Header Files\DataBaseLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Header Files\DataBaseLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQLM.h">
+      <Filter>Header Files\DataBaseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterServer.h">
+      <Filter>Header Files\ConnectMasterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters.h">
+      <Filter>Header Files\LoginServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Header Files\LoginServer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLogin.h">
+      <Filter>Header Files\LoginServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Worlds.h">
+      <Filter>Header Files\LoginServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel.h">
+      <Filter>Header Files\MasterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Channels.h">
+      <Filter>Header Files\MasterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelsPlayers.h">
+      <Filter>Header Files\MasterServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelsPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="DropsPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelsPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterServerPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="MobsPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketCreator.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayersPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestsPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillsPacket.h">
+      <Filter>Header Files\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

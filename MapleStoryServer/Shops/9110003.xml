@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Mushroom Shrine: Janken-->
+<Shop>
+	<NPC>9110003</NPC>
+	<Items>
+		<Item>
+			<ID>02022021</ID>
+			<Price>550</Price>
+		</Item>
+		<Item>
+			<ID>02022022</ID>
+			<Price>1300</Price>
+		</Item>		
+	</Items>
+</Shop>

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Item>
+    <Type>3</Type>
+    <Price>5000</Price>
+    <MaxSlot>1</MaxSlot>
+    <Quest>0</Quest>
+    <Consume>0</Consume>
+</Item>
